@@ -1,0 +1,29 @@
+.logo {
+	width: 50%;
+}
+.foot {
+	width: 15%
+}
+.fac {
+	width: 100%
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+    flex: 1 0 auto;
+}
+
+.mapa {
+	width: 100%;
+}
+
+.contact {
+	font-family: 'Gamja Flower', cursive;
+}
+.casa {
+	width: 10%;
+}

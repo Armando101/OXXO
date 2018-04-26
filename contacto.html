@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>OXXO</title>
+  <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet"> 
+  <link rel="icon"  href="img/logoxxo.png">
+  <link rel ="stylesheet" href="css/materialize.min.css">
+  <link rel ="stylesheet" href="https://fonts.googleapis.com\icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+
+  <nav>
+    <div class="nav-wrapper #d50000 red accent-4">
+      <a href="#!" class="brand-logo"><img src="img/logoxxo.png" class="logo"> </a>
+      <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="index.html">Incio</a></li>
+        <li><a href="promociones.html">Promociones</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="unete.html">Unete</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="index.html">Incio</a></li>
+    <li><a href="promociones.html">Promociones</a></li>
+    <li><a href="productos.html">Productos</a></li>
+    <li><a href="unete.html">Unete</a></li>
+    <li><a href="contacto.html">Contacto</a></li>
+  </ul>
+
+
+  <main>
+
+    <div class="row">
+      <form class="col m6">
+        <div class="col m12">
+          <h2 class="contact">Comunicate con nosotros</h2>
+        </div>
+        <div class="row">
+          <div class="input-field col m6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="icon_prefix" type="text" class="validate">
+            <label for="icon_prefix">Nombre</label>
+          </div>
+          <div class="input-field col m6">
+            <i class="material-icons prefix">phone</i>
+            <input id="icon_telephone" type="tel" class="validate">
+            <label for="icon_telephone">Telefono</label>
+          </div>
+        </div>
+        <div class="row">
+          <form class="col m6">
+            <div class="row">
+              <div class="input-field col m12">
+                <i class="material-icons prefix">mail_outline</i>
+                <input id="email" type="email" class="validate">
+                <label for="email">Email</label>
+                <span class="helper-text" data-error="wrong" data-success="right"></span>
+              </div>
+            </div>
+            </form>
+            <form>
+            <div class="row">
+            <div class="input-field col m12">
+              <i class="material-icons prefix">mode_edit</i>
+              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+              <label for="icon_prefix2"> Mensaje</label>
+            </div>
+            </div>
+            </form>  
+            <form action="#">
+                <p>
+                  <label>
+                    <input type="checkbox" />
+                    <span>Acepto los terminos y condiciones</span>
+                  </label>
+                </p>
+              </form>
+                <center>
+                  <button onclick="Ejecuta()">
+                    <a href="#" class="waves-effect #e53935 red darken-1 btn-large">Enviar</a>
+                  </button>
+                </center>
+              </div>
+    </form>
+    <div class="col m6">
+      <div class="row">
+        <div class="col m12">
+          <h2 class="contact">Llamanos</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col m12">
+           <i class="material-icons prefix">phone</i>
+           <strong> <h5> 01 (81) 83 20 20 20 </h5></strong>
+        </div>
+      </div>
+      <h2 class="contact">Conoce nuestras sucursales</h2>
+      <div class="row">
+        <div class="col m12">
+          <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3761.773958934842!2d-99.22344594978425!3d19.465310186801258!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d2025ac4f8f347%3A0x171525e6dd90ec8f!2sOXXO+Naucalpan!5e0!3m2!1ses-419!2smx!4v1524714430296" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+    </div>
+
+
+      </main>
+
+      <footer class="page-footer #d50000 red accent-4">
+        <center>
+          <br>
+          <br>
+          <img src="img/logoxxo.png" class="foot">
+          <h4>Siguenos</h4>
+          <a href="https://es-la.facebook.com/OXXOTiendas/" class="btn-floating btn-large waves-effect waves-light #0d47a1 blue darken-4"><i class="material-icons"><img src="img/Face.png" class="fac"></i></a>
+
+          <a href="https://twitter.com/tiendas_oxxo?lang=es" class="btn-floating btn-large waves-effect waves-light #29b6f6 light-blue lighten-1"><i class="material-icons"><img src="img/twiter.png" class="fac"></i></a>
+          <a href="https://www.youtube.com/user/tiendaoxxo" class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons"><img src="img/you.png" class="fac"></i></a>
+        </center>   
+        <div class="footer-copyright">
+          <div class="container">
+            <span style="color:white;">💝</span> © 2018 OXO, All Rigths Reserved
+          </div></div>
+        </footer>
+
+      </body>
+      <script src="js/jquery.js"></script>
+      <script src="js/materialize.js"></script>
+      <!--<script src="js/materialize.min.js"></script>-->
+      <script src="js/add.js"></script>
+      </html>
